@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Siblings selectores*/
+.pai .um~.dois{
+    color: red
+}
+
+.pai .um+.dois{
+    color: red
+}
+
+/*Seleção por atributos*/
+[meu-atributo]{
+    color: red;
+}
+
+/*Pegar os valores*/
+[meu-atributo="valor"]{
+    color: blue;
+}
+
+/*Pegar os valores especificos*/
+[meu-atributo~="valor1"]{
+    color: yellow;
+}
+
+
+/*Começa com*/
+[meu-atributo^="valor1"]{
+    color: yellow;
+}
+
+
+
+
+/*Termina com*/
+[meu-atributo$="3"]{
+    color: blue;
+}
+
+
+
+/*Contém*/
+[meu-atributo*="va"]{
+    color: red;
+}

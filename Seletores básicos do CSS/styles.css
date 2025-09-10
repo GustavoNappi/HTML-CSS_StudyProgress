@@ -14,3 +14,8 @@
 .pai .um+.dois{
     color: red
 }
+
+/*Seleção por atributos*/
+[meu-atributo]{
+    color: red;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            background: rgba(0,0,0,0.5);
+            height: 60px;
+        }
+
+        body a{
+            color: white;
+            text-decoration: none;
+            font-family: monospace;
+            background-color: blue;
+            padding: 10px;
+            display: block;
+            text-transform: uppercase;
+        }
+
+
+        nav  a:hover{
+            background: rgba(0,0,0,0.5)
+        }
+        
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+    </ul>
+</nav>
+    
+<!--Lista não ordenada-->
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+
+
+<!--Lista ordenada-->
+<ol type="1" start="20">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+
+<!--Descrição de textos-->
+
+<dl>
+    <dt>Café</dt>
+    <dd>bebida preta quente</dd>
+    <dt>Café</dt>
+    <dd>bebida preta quente</dd>
+</dl>
+
+
+
+</body>
+</html>

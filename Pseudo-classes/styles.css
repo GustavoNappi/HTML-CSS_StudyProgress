@@ -50,3 +50,13 @@ input:disabled{
 input:checked + p{
     background-color: darkorchid;
 }
+
+.pai .lista li:last-child{
+    background:red;
+}
+
+input:required{
+    background: red;
+}
+
+

@@ -6,12 +6,11 @@
 
 
 
-div {
-    color: initial;
-    margin-left: 20px;
+/*Siblings selectores*/
+.pai .um~.dois{
+    color: red
 }
 
-.pai  > .filha > span > .filha{
-    color: red;
+.pai .um+.dois{
+    color: red
 }
-

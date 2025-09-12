@@ -1,0 +1,10 @@
+#texto {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: red;
+    font-size: large;
+}
+
+p{
+    font-size: inherit;
+    color:initial;
+}

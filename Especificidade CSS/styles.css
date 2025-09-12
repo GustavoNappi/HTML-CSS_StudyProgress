@@ -1,0 +1,18 @@
+/*
+ID Classes, atributos e pseudo-elementos Elementos e pseudo-elementos
+1   0                                     0
+0   1                                     0
+1   1                                     0*/
+
+
+body#b.bclass p#pp.p::selection{
+    background:purple;
+}
+#p{
+    background-color: red;
+}
+
+
+#p.p{
+    background:yellow;
+}

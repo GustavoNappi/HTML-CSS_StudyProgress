@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+.pai {
+  width: 50rem;
+  height: 100vh;
+  background: blue;
+  overflow: hidden;
+}
+
+
+.pai > div{
+    width: 50%;
+    height: 50rem;
+    background:blue;
+}
+/* "Em" vai pegar o valor da classe mais proxima do elemnto e multiplicar os pixels*/
+
+/* "Rem" vai pegar o valor do documento raiz e ficar igual o valor de pixel dele*/
+
+p {
+  font-size: 2vmax;
+}
+
+.color-one {
+  background: turquoise;
+}
+
+.color-two {
+  background: violet;
+}

@@ -8,7 +8,8 @@
 .flex-container{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: flex-start;
     background:yellow;
     height: 500px;
@@ -18,6 +19,6 @@
 
 
 .flex-item{
-    width: 100%;
+    width: 320px;
     background: red;
     margin:10px;}
